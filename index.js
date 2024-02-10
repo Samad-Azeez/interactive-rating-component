@@ -47,5 +47,5 @@ renderButton()
 // Add a click event listener to the submit button
 submitBtn.addEventListener("click", function() {
     // Redirect the user to "/submit.html" with the query parameter "count" containing the value of "count"
-    location.assign(`/submit.html?count=${count}`)
+    location.href += `submit.html?count=${count}`
 })
